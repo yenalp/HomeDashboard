@@ -83,7 +83,7 @@ const eventsOutsideTemp= {
                   gaugeRef.feedData("&value=" + consVolume);
                 //   fuelVolume = consVolume;
               });
-      }, 3000);
+      }, 30000);
   },
   //Using real time update event to update the annotation
   "realTimeUpdateComplete": function(evt, arg) {
